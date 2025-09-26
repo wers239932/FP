@@ -20,9 +20,15 @@ jobs:
         
     - name: Restore dependencies
       run: dotnet restore
+
+    - name: Install Fantomas
+      run: dotnet tool install fantomas --global
+
+    - name: Check formatting
+      run: fantomas --check .
       
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore -warnaserror
       
     - name: Test
       run: dotnet test Tests/Tests.fsproj --no-build --verbosity normal --collect:"XPlat Code Coverage"
