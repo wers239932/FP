@@ -1,4 +1,6 @@
-let largestPrimeFactor  n = 
+module RecursionTask1
+
+let solveRecursion  n = 
     let rec largestPrimeFactorFrom m i = 
         if i*i > m then m
         else

@@ -1,4 +1,6 @@
-let largestPrimeFactor n =
+module TailRecursionTask1
+
+let solveTailRecursion n =
     let rec loop acc divisor num =
         if num = 1L then acc
         elif num % divisor = 0L then 
@@ -7,5 +9,5 @@ let largestPrimeFactor n =
             loop acc (divisor + 1L) num
     loop 1L 2L n
 
-let result = largestPrimeFactor 600851475143L
-printfn "%d" result
+// let result = solveTailRecursion 600851475143L
+// printfn "%d" result

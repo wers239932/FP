@@ -1,3 +1,5 @@
+module MapTask1
+
 open System
 
 let factors n =
@@ -10,7 +12,7 @@ let factors n =
     |> Seq.filter ((<>) 0L)
     |> Seq.map id
 
-let largestPrimeFactor n =
+let solveMap n =
     factors n |> Seq.max
 
-printfn "ans: %d" (largestPrimeFactor 600851475143L)
+// printfn "ans: %d" (solveMap 600851475143L)

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="cycle/task1.fs" />
+    <Compile Include="cycle/task2.fs" />
+    <Compile Include="inf/task1.fs" />
+    <Compile Include="inf/task2.fs" />
+    <Compile Include="map/task1.fs" />
+    <Compile Include="map/task2.fs" />
+    <Compile Include="modules/task1.fs" />
+    <Compile Include="modules/task2.fs" />
+    <Compile Include="monolite/recursion/task1.fs" />
+    <Compile Include="monolite/recursion/task2.fs" />
+    <Compile Include="monolite/tail_recursion/task1.fs" />
+    <Compile Include="monolite/tail_recursion/task2.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>

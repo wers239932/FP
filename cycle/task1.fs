@@ -1,4 +1,6 @@
-let largestPrimeFactor (n: int64) =
+module CycleTask1
+
+let solveCycle (n: int64) =
     let mutable num = n
     let mutable factor = 2L
     let mutable last = 1L
@@ -10,4 +12,4 @@ let largestPrimeFactor (n: int64) =
             factor <- factor + 1L
     if num > 1L then num else last
 
-printfn "ans: %d" (largestPrimeFactor 600851475143L)
+// printfn "ans: %d" (solveCycle 600851475143L)

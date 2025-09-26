@@ -1,4 +1,6 @@
-let spiralDiagonalSum size =
+module CycleTask2
+
+let solveCycle size =
     let mutable n = 3
     let mutable sum = 1L
     while n <= size do
@@ -6,4 +8,3 @@ let spiralDiagonalSum size =
         n <- n + 2
     sum
 
-printfn "ans: %d" (spiralDiagonalSum 1001)

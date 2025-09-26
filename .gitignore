@@ -1,3 +1,7 @@
 task
 vscode
 .kiro
+obj
+.fake
+bin
+Tests/bin

@@ -1,4 +1,4 @@
-module Table =
+module Table
     type Cell = { x: int64; y: int64; num: int64 }
     let rec generateCells n =
         seq {
@@ -24,8 +24,7 @@ module Table =
     let count (cells: seq<Cell>) = 
         (cells |> Seq.fold summator {x=0;y=0;num=0}).num
 
-    let countAns = generateCells >> takeGoodOnesFromCells >> count
+    let solveModules = generateCells >> takeGoodOnesFromCells >> count
 
-let sum = Table.countAns 101L
-
-printfn "   ans = %d" sum
+// let sum = Table.solveModules 101L
+// printfn "   ans = %d" sum

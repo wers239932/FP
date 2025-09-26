@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9139" branch-rate="0.8311" version="1.9" timestamp="1758794062" lines-covered="85" lines-valid="93" branches-covered="64" branches-valid="77">
+  <sources>
+    <source>C:\Users\Vladimir\f#projets\1lab\</source>
+  </sources>
+  <packages>
+    <package name="1lab" line-rate="0.9139" branch-rate="0.8311" complexity="91">
+      <classes>
+        <class name="Program" filename="Program.fs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="TailRecursionTask2" filename="monolite\tail_recursion\task2.fs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="solveTailRecursion" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="TailRecursionTask2/sumUpTo@5" filename="monolite\tail_recursion\task2.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Invoke" signature="(System.Int64,System.Int64)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="5" hits="501" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="4" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="6" hits="1" branch="False" />
+                <line number="8" hits="500" branch="False" />
+                <line number="9" hits="500" branch="False" />
+                <line number="10" hits="500" branch="False" />
+                <line number="11" hits="500" branch="False" />
+                <line number="12" hits="500" branch="False" />
+                <line number="13" hits="500" branch="False" />
+                <line number="14" hits="500" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="501" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="4" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="6" hits="1" branch="False" />
+            <line number="8" hits="500" branch="False" />
+            <line number="9" hits="500" branch="False" />
+            <line number="10" hits="500" branch="False" />
+            <line number="11" hits="500" branch="False" />
+            <line number="12" hits="500" branch="False" />
+            <line number="13" hits="500" branch="False" />
+            <line number="14" hits="500" branch="False" />
+          </lines>
+        </class>
+        <class name="TailRecursionTask1" filename="monolite\tail_recursion\task1.fs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="solveTailRecursion" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="TailRecursionTask1/loop@5-1" filename="monolite\tail_recursion\task1.fs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Invoke" signature="(System.Int64,System.Int64,System.Int64)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="5" hits="6861" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="4" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="6" hits="6859" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="12" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="4" branch="False" />
+                <line number="9" hits="6855" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="6861" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="4" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="6" hits="6859" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="12" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="7" hits="4" branch="False" />
+            <line number="9" hits="6855" branch="False" />
+          </lines>
+        </class>
+        <class name="RecursionTask2" filename="monolite\recursion\task2.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="solveRecursion" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="4" hits="502" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="4" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="5" hits="500" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="502" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="4" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="5" hits="500" branch="False" />
+          </lines>
+        </class>
+        <class name="RecursionTask1" filename="monolite\recursion\task1.fs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="solveRecursion" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="RecursionTask1/largestPrimeFactorFrom@5" filename="monolite\recursion\task1.fs" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+          <methods>
+            <method name="Invoke" signature="(System.Int64,System.Int64)" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+              <lines>
+                <line number="5" hits="1474" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="5" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="1472" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="1475" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="9" hits="1469" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="1474" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="5" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="7" hits="1472" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="1475" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="30" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="9" hits="1469" branch="False" />
+          </lines>
+        </class>
+        <class name="Table" filename="modules\task2.fs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="generateCells" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="51" branch="False" />
+                <line number="5" hits="51" branch="False" />
+                <line number="6" hits="100" branch="False" />
+                <line number="7" hits="51" branch="False" />
+                <line number="8" hits="2700" branch="False" />
+                <line number="9" hits="2550" branch="False" />
+                <line number="10" hits="2700" branch="False" />
+                <line number="11" hits="2550" branch="False" />
+                <line number="12" hits="2700" branch="False" />
+                <line number="13" hits="2550" branch="False" />
+                <line number="14" hits="2700" branch="False" />
+                <line number="15" hits="2550" branch="False" />
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="51" branch="False" />
+              </lines>
+            </method>
+            <method name="takeGoodOnesFromCells" signature="(System.Collections.Generic.IEnumerable`1&lt;Table/Cell&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="20303" branch="False" />
+              </lines>
+            </method>
+            <method name="summator" signature="(Table/Cell,Table/Cell)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="201" branch="False" />
+              </lines>
+            </method>
+            <method name="count" signature="(System.Collections.Generic.IEnumerable`1&lt;Table/Cell&gt;)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="51" branch="False" />
+            <line number="5" hits="51" branch="False" />
+            <line number="6" hits="100" branch="False" />
+            <line number="7" hits="51" branch="False" />
+            <line number="8" hits="2700" branch="False" />
+            <line number="9" hits="2550" branch="False" />
+            <line number="10" hits="2700" branch="False" />
+            <line number="11" hits="2550" branch="False" />
+            <line number="12" hits="2700" branch="False" />
+            <line number="13" hits="2550" branch="False" />
+            <line number="14" hits="2700" branch="False" />
+            <line number="15" hits="2550" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="51" branch="False" />
+            <line number="20" hits="20303" branch="False" />
+            <line number="22" hits="201" branch="False" />
+            <line number="25" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="&lt;StartupCode$1lab&gt;.$Table" filename="modules\task2.fs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Table/generateCells@5" filename="modules\task2.fs" line-rate="1" branch-rate="0.76" complexity="25">
+          <methods />
+          <lines />
+        </class>
+        <class name="Table/takeGoodOnesFromCells@20" filename="modules\task2.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods />
+          <lines />
+        </class>
+        <class name="PrimeFactors" filename="modules\task1.fs" line-rate="1" branch-rate="0.5" complexity="5">
+          <methods>
+            <method name="isPrime" signature="(System.Int64)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="3" hits="7" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="4" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="5" hits="7" branch="False" />
+                <line number="6" hits="376" branch="False" />
+              </lines>
+            </method>
+            <method name="generateCandidates" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="filterPrimeDivisors" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="775153" branch="False" />
+              </lines>
+            </method>
+            <method name="solveModules" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="7" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="4" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="5" hits="7" branch="False" />
+            <line number="6" hits="376" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="775153" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="PrimeFactors/filterPrimeDivisors@13" filename="modules\task1.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods />
+          <lines />
+        </class>
+        <class name="PrimeFactors/solveModules@17" filename="modules\task1.fs" line-rate="1" branch-rate="0.5" complexity="2">
+          <methods />
+          <lines />
+        </class>
+        <class name="MapTask2" filename="map\task2.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="solveMap" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="4" hits="1" branch="False" />
+                <line number="5" hits="1" branch="False" />
+                <line number="6" hits="501" branch="False" />
+                <line number="7" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="62" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="1" branch="False" />
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="501" branch="False" />
+            <line number="7" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="62" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="MapTask1" filename="map\task1.fs" line-rate="1" branch-rate="0.625" complexity="9">
+          <methods>
+            <method name="factors" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+                <line number="7" hits="1475" branch="False" />
+                <line number="8" hits="1476" branch="False" />
+                <line number="9" hits="1471" branch="False" />
+                <line number="10" hits="1469" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="solveMap" signature="(System.Int64)" line-rate="1" branch-rate="0.625" complexity="8">
+              <lines>
+                <line number="16" hits="2" branch="True" condition-coverage="62.5% (5/8)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="50%" />
+                    <condition number="42" type="jump" coverage="50%" />
+                    <condition number="107" type="jump" coverage="100%" />
+                    <condition number="91" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1475" branch="False" />
+            <line number="8" hits="1476" branch="False" />
+            <line number="9" hits="1471" branch="False" />
+            <line number="10" hits="1469" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+            <line number="16" hits="2" branch="True" condition-coverage="62.5% (5/8)">
+              <conditions>
+                <condition number="15" type="jump" coverage="50%" />
+                <condition number="42" type="jump" coverage="50%" />
+                <condition number="107" type="jump" coverage="100%" />
+                <condition number="91" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+        <class name="MapTask1/Pipe #1 input at line 6@6" filename="map\task1.fs" line-rate="1" branch-rate="1" complexity="6">
+          <methods />
+          <lines />
+        </class>
+        <class name="InfTask2" filename="inf\task2.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="solveInf" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="4" hits="1" branch="False" />
+                <line number="5" hits="501" branch="False" />
+                <line number="6" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="69" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="1" branch="False" />
+            <line number="5" hits="501" branch="False" />
+            <line number="6" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="69" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="7" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="InfTask1" filename="inf\task1.fs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="solveInf" signature="(System.Int64)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="1082092" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="1082092" branch="False" />
+          </lines>
+        </class>
+        <class name="InfTask1/loop@5" filename="inf\task1.fs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Invoke" signature="(System.Int64,System.Collections.Generic.IEnumerable`1&lt;System.Int64&gt;)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="5" hits="2946" branch="False" />
+                <line number="6" hits="1474" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="1475" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="22" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="4407" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="2946" branch="False" />
+            <line number="6" hits="1474" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="7" hits="1475" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="22" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="4407" branch="False" />
+          </lines>
+        </class>
+        <class name="CycleTask2" filename="cycle\task2.fs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="solveCycle" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="4" hits="1" branch="False" />
+                <line number="5" hits="1" branch="False" />
+                <line number="6" hits="501" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="7" hits="500" branch="False" />
+                <line number="8" hits="500" branch="False" />
+                <line number="9" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="1" branch="False" />
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="501" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="7" hits="500" branch="False" />
+            <line number="8" hits="500" branch="False" />
+            <line number="9" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="CycleTask1" filename="cycle\task1.fs" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+          <methods>
+            <method name="solveCycle" signature="(System.Int64)" line-rate="1" branch-rate="0.8332999999999999" complexity="6">
+              <lines>
+                <line number="4" hits="1" branch="False" />
+                <line number="5" hits="1" branch="False" />
+                <line number="6" hits="1" branch="False" />
+                <line number="7" hits="1473" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="35" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="8" hits="1472" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="14" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="False" />
+                <line number="12" hits="1469" branch="False" />
+                <line number="13" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="41" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="1" branch="False" />
+            <line number="5" hits="1" branch="False" />
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1473" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="35" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="8" hits="1472" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="14" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="12" hits="1469" branch="False" />
+            <line number="13" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="41" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
