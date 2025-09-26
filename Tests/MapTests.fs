@@ -5,7 +5,7 @@ open TestHelpers
 
 [<TestFixture>]
 type MapTask1Tests() =
-    
+
     [<Test>]
     member _.``solveMap should find largest prime factor of target number``() =
         assertEqualLong 6857L (MapTask1.solveMap 600851475143L)

@@ -14,5 +14,3 @@ let solveTailRecursion n =
                  + (n * n - 3L * (n - 1L)))
 
     sumUpTo n 0L
-
-// printf $"sum = {solveTailRecursion 1001}\n"

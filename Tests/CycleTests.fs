@@ -5,7 +5,7 @@ open TestHelpers
 
 [<TestFixture>]
 type CycleTask1Tests() =
-    
+
     [<Test>]
     member _.``solveCycle should find largest prime factor of target number``() =
         assertEqualLong 6857L (CycleTask1.solveCycle 600851475143L)

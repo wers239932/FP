@@ -1,11 +1,12 @@
 module RecursionTask1
 
-let solveRecursion  n = 
-    let rec largestPrimeFactorFrom m i = 
-        if i*i > m then m
+let solveRecursion n =
+    let rec largestPrimeFactorFrom m i =
+        if i * i > m then
+            m
+        else if m % i = 0L then
+            max (largestPrimeFactorFrom (m / i) i) i
         else
-            if m%i=0L
-                then max (largestPrimeFactorFrom (m/i) i) i
-                else largestPrimeFactorFrom m (i+1L)
-    
+            largestPrimeFactorFrom m (i + 1L)
+
     largestPrimeFactorFrom n 2L
