@@ -1,6 +1,5 @@
-#include <iostream>
 #include <cmath>
-#include <algorithm>
+#include "lab1.h"
 
 long long largestPrimeFactor(long long n) {
     long long maxPrime = 1;
@@ -50,21 +49,4 @@ long long calculateSpiralDiagonalSum(int size) {
     }
 
     return sum;
-}
-
-int main() {
-    long long num1 = 13195;
-    long long num2 = 600851475143LL;
-
-    std::cout << "Largest prime factor of " << num1 << ": " << largestPrimeFactor(num1) << std::endl;
-    std::cout << "Largest prime factor of " << num2 << ": " << largestPrimeFactor(num2) << std::endl;
-
-    // Test cases for Task 2
-    int spiralSize1 = 5;
-    int spiralSize2 = 1001;
-
-    std::cout << "Spiral diagonal sum for " << spiralSize1 << "x" << spiralSize1 << ": " << calculateSpiralDiagonalSum(spiralSize1) << std::endl;
-    std::cout << "Spiral diagonal sum for " << spiralSize2 << "x" << spiralSize2 << ": " << calculateSpiralDiagonalSum(spiralSize2) << std::endl;
-
-    return 0;
 }

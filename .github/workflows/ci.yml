@@ -7,7 +7,7 @@ on:
     branches: [ 1lab ]
 
 jobs:
-  test:
+  test-fsharp:
     runs-on: ubuntu-latest
     
     steps:
@@ -47,3 +47,32 @@ jobs:
 
     - name: Run main program
       run: dotnet run --no-build --project 1lab.fsproj
+
+  test-cpp:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install C++ tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y g++ clang-format cppcheck
+    
+    - name: Check C++ formatting
+      run: |
+        find c++ -name "*.cpp" -o -name "*.h" | xargs clang-format --dry-run --Werror --style=Google
+    
+    - name: Static analysis with cppcheck
+      run: |
+        cppcheck --enable=all --error-exitcode=1 --suppress=missingIncludeSystem c++/
+    
+    - name: Compile C++ unit tests
+      run: |
+        cd c++
+        g++ -std=c++17 -Wall -Wextra -Werror -O2 -o test_lab1 test_lab1.cpp lab1_functions.cpp
+    
+    - name: Run C++ unit tests
+      run: |
+        cd c++
+        ./test_lab1
