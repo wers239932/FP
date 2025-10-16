@@ -1,0 +1,68 @@
+# ===== .NET build output =====
+**/bin/
+**/obj/
+**/out/
+**/Debug/
+**/Release/
+
+# ===== NuGet artifacts =====
+**/project.assets.json
+**/project.nuget.cache
+**/*.nuget.dgspec.json
+**/*.nuget.g.props
+**/*.nuget.g.targets
+*.nupkg
+*.snupkg
+packages/
+~/.nuget/packages/
+
+# ===== IDE / editors =====
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.csproj.user
+*.fsproj.user
+*.sln.iml
+
+# ===== Logs / test results =====
+TestResults/
+*.log
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# ===== System files =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===== Temporary / backup files =====
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+*.rej
+
+# ===== JetBrains / ReSharper =====
+_ReSharper*/
+*.DotSettings.user
+*.sln.DotSettings.user
+
+# ===== Others =====
+*.opendb
+*.VC.db
+*.vshost.*
