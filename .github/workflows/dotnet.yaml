@@ -20,10 +20,10 @@ jobs:
           dotnet-version: 9.0.x
 
       - name: Restore dependencies
-        run: dotnet restore FP/ImmutableHashMap.Tests/ImmutableHashMap.Tests.fsproj
+        run: dotnet restore ImmutableHashMap.Tests/ImmutableHashMap.Tests.fsproj
 
       - name: Build
-        run: dotnet build FP/ImmutableHashMap.Tests/ImmutableHashMap.Tests.fsproj --configuration Release --no-restore
+        run: dotnet build ImmutableHashMap.Tests/ImmutableHashMap.Tests.fsproj --configuration Release --no-restore
 
       - name: Run tests
-        run: dotnet test FP/ImmutableHashMap.Tests/ImmutableHashMap.Tests.fsproj --configuration Release --no-build --verbosity normal
+        run: dotnet test ImmutableHashMap.Tests/ImmutableHashMap.Tests.fsproj --configuration Release --no-build --verbosity normal
